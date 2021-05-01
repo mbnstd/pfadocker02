@@ -8,7 +8,8 @@ const connectdb = async () => {
       host: process.env.MYSQL_HOST,
       user: process.env.MYSQL_ROOT_USER,
       password: process.env.MYSQL_ROOT_USER,
-      database: process.env.MYSQL_DATABASE
+      database: process.env.MYSQL_DATABASE,
+      charset: 'utf8mb4'
     });
     await conn.connect();
     console.log('Connected to mysqldb');
