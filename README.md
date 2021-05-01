@@ -1,4 +1,4 @@
-#PFA Docker 02
+# PFA Docker 02
 
 To run this project:
 ```sh
