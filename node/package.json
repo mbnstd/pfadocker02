@@ -1,0 +1,23 @@
+{
+  "name": "pfadocker01",
+  "version": "1.0.0",
+  "description": "PFA Docker Challenge 01",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbnstd/pfadocker01.git"
+  },
+  "author": "Miguel Nedel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbnstd/pfadocker01/issues"
+  },
+  "homepage": "https://github.com/mbnstd/pfadocker01#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  }
+}
